@@ -18,6 +18,7 @@ pipeline {
                 
                 script {
                     sh 'ls -la'
+                    sh 'pwd'
                     echo "Upstream tag: $GIT_BRANCH"
                     
                 }
